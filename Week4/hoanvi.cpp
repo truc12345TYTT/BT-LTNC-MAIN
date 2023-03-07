@@ -4,11 +4,11 @@ using namespace std;
 
 int n, k;
 bool use[300];
-int c[100];
+char c[100];
 
 void in(){
     for (int i = 1; i <= k; i ++)
-        cout << c[i];
+        cout << char(c[i] + 'a' - 1);
     cout << endl;
 }
 
