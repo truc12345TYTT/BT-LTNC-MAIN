@@ -1,0 +1,51 @@
+1.
+L?nh tr? v? giá tr? isA = 1 v?i m?i giá tr? bi?n grade.
+=> S?a thành bool isA = ( 90 <= grade && grade <= 100);
+
+2.
+In ra x = 0. v? th?c hi?n phép tính 3/5 = 0 trý?c.
+
+3.
+Giá tr? x*x vý?t ngoài ph?m vi c?a ki?u d? li?u long.
+
+4.
+Bi?u th?c có giá tr? b?ng 0.
+
+5.
+Hi?n th? l?i.
+
+6.
+int a = 27 * "three";
+=> Thông báo l?i cú pháp.
+double x;
+cout << x;
+N?u x n?m trong hàm main => in ra giá tr? ng?u nhiên.
+N?u x n?m ngoài hàm main => in ra giá tr? b?ng 0.
+
+7.
+int threeInt = 3;
+int fourInt  = 4;
+double threeDouble = 3.0;
+double fourDouble  = 4.0;
+cout << threeInt / fourInt << endl;   \\\0
+cout << threeInt / fourDouble << endl;    \\\0.75
+cout << threeDouble / fourInt << endl;   \\\0.75
+cout << threeDouble / fourDouble << endl;    \\\0.75
+
+8.
+L?i bi?n khai báo ð? t?n t?i.
+L?i 2 kí t? trong ' '
+
+9.
+Bên trong kh?i l?nh con, arg1 = 'A'.
+
+10.
+arg1 = -1.
+
+11.
+F = 0 v? ( 5/9 = 0)
+
+12.
+KQ: Here
+
+
