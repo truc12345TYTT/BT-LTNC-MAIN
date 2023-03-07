@@ -17,10 +17,10 @@ void tohop(int i){
         if (use[j] == 0){
             c[i] = j;
             use[j] = 1;
+            if (i == k) in();
+            else tohop(i + 1);
+            use[j] = 0;
         }
-        if (i == k) in();
-        else tohop(i + 1);
-        use[j] = 0;
     }
 }
 
