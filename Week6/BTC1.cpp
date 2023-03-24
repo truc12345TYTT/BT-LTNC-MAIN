@@ -5,11 +5,11 @@ using namespace std;
 
 struct String{
     int lengthString;
-    char* str;
+    char* str = new char[lengthString];
     String(const char* _str){
        // cerr << strlen(_str) << endl;
         lengthString = strlen(_str);
-        str = new char[lengthString];
+     //   str = new char[lengthString];
      //   str = _str;
         strcpy(str, _str);
         cout << "Creat (" << str << ")at " << this << endl;
@@ -39,7 +39,7 @@ struct String{
 };
 
 int main(){
-    String s("Hi");
+    String s("Hi there   there");
     s.print();
     s.append("there");
     s.print();
