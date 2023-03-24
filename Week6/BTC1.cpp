@@ -5,37 +5,44 @@ using namespace std;
 
 struct String{
     int lengthString;
-    char* str = new char[lengthString ];
+    char* str;
     String(const char* _str){
+       // cerr << strlen(_str) << endl;
         lengthString = strlen(_str);
-        strncpy(str, _str, lengthString );
+        str = new char[lengthString];
+     //   str = _str;
+        strcpy(str, _str);
+        cout << "Creat (" << str << ")at " << this << endl;
     }
 
     void print(){
-        cout << "length: " << lengthString << endl;
-        cout << "String: " << str << endl;
+        cerr << "length: " << lengthString << endl;
+        cerr << "String: " << str << endl;
     }
- /*   void append(const char* appendString){
-        int lengtemp = lengthString + strlen(appendString) + 2;
-        const char* temp = new char[lengtemp];
-        temp = appendString;
+    void append(const char* appendString){
+        int lengtemp = lengthString + strlen(appendString);
+        char* temp = new char[lengtemp];
+        strcpy(temp, str);
+        strcat(temp, appendString);
         lengthString = lengtemp;
-        str = temp;
+        str = new char[lengthString];
+        strcpy(str, temp);
+
        // cout << str;
         delete [] temp;
-    }*/
+    }
 
-    ~String(){
+   ~String(){
         delete str;
+        cerr << "delete (" << str << ") at " << this << endl;
     }
 };
 
 int main(){
-    String s("Linh thui");
+    String s("Hi");
     s.print();
-   // s.append("there");
-  //  s.print();
-    //s.~String();
+    s.append("there");
+    s.print();
 
 
     return 0;
