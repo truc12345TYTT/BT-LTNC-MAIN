@@ -1,0 +1,50 @@
+ Bai 2A
+void sizeArray(int a[]){
+    cout << sizeof(a) << endl;
+
+int main(){
+    int a[7];
+    cout << sizeof(a) << endl;  in ra 7*4 = 28 => số bit
+    sizeArray(a);    in ra 7
+    return 0;
+}
+
+
+Bai 3
+int count_even(int *a, int n){
+    int cnt = 0;
+    for (int i = 0; i < n; i ++)
+        if (a[i]%2 == 0) cnt ++;
+    return cnt}
+main(){
+   int *a = new int[5];
+   a = {1, 2, 3, 4, 5};
+   cout << count_event(a, 5);
+   return 0;
+}
+
+
+Bai 4
+int binarySearch(int *a, int &l, int &r, int x){
+   if (r >= l) int mid = l  + (r - l)/2;
+   if (a[mid] == x) return mid;
+   if (a[mid] > x) return binarySearch(a, l, mid - 1, x);
+   return binarySearch(a, mid + 1, int r, x)
+}
+
+Bai 5
+Canh bao dia chi cua bien cuc bo char c khong hop le
+KQ: khong in ra gi
+
+Phan B
+Bai 1: 
+*p3 = B, p3 = 0x5678
+*p3 = A, p3 = 0x1234
+*p1 = B, p1 = 0x5678
+Bai 2:
+*p = 5
+k = 5
+Bai 3
+Khong cung kieu du lieu
+
+    
