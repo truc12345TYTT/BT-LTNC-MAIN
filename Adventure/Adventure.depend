@@ -1,0 +1,54 @@
+# depslib dependency file v1.0
+1683194062 source:c:\users\truc3\onedrive\máy tính\adventure\main.cpp
+	"Game.h"
+
+1683356841 c:\users\truc3\onedrive\máy tính\adventure\src\core\game.h
+	<SDL.h>
+	<SDL_image.h>
+
+1683361762 source:c:\users\truc3\onedrive\máy tính\adventure\src\core\game.cpp
+	"Game.h"
+	"TextureManager.h"
+	"Vector2D.h"
+	"Transform.h"
+	"MainCharacter.h"
+
+1683359389 c:\users\truc3\onedrive\máy tính\adventure\src\textures\texturemanager.h
+	<string>
+	<SDL.h>
+	<map>
+
+1683361701 source:c:\users\truc3\onedrive\máy tính\adventure\src\textures\texturemanager.cpp
+	"TextureManager.h"
+	<SDL_image.h>
+	"Game.h"
+
+1683357559 c:\users\truc3\onedrive\máy tính\adventure\src\physics\vector2d.h
+	<iostream>
+	<string>
+
+1683359057 c:\users\truc3\onedrive\máy tính\adventure\src\physics\transform.h
+	<iostream>
+	<string>
+	"Vector2D.h"
+
+1683363063 c:\users\truc3\onedrive\máy tính\adventure\src\sprite\maincharacter.h
+	"Character.h"
+
+1683361762 c:\users\truc3\onedrive\máy tính\adventure\src\sprite\character.h
+	"GameObject.h"
+	<string>
+
+1683362443 c:\users\truc3\onedrive\máy tính\adventure\src\object\gameobject.h
+	"IObject.h"
+	"Transform.h"
+	<string>
+	"SDL.h"
+
+1683358681 c:\users\truc3\onedrive\máy tính\adventure\src\object\iobject.h
+
+1683363149 source:c:\users\truc3\onedrive\máy tính\adventure\src\sprite\maincharacter.cpp
+	"MainCharacter.h"
+	"TextureManager.h"
+	<SDL.h>
+
